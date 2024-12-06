@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/* 
+.div1{
+    width: 100px;
+    height: 50px;
+    background-color: lightblue;
+    transform: translate(200px, 200px);
+}
+
+.div2{
+    width: 100px;
+    height: 50px;
+    background-color: lightblue;
+    transform: rotate(90deg);
+}
+
+.div3{
+    width: 100px;
+    height: 50px;
+    background-color: lightblue;
+    transform: translate(400px);
+} */
+
+/* .div4{
+    width: 100px;
+    height: 50px;
+    background-color: lightblue;
+    transform: translate(400px, 400px);
+    transform: skew(20deg, 10deg)
+} */
+/* 
+.matrix{
+    width: 100px;
+    height: 50px;
+    background-color: aquamarine;
+    transform: matrix(1, 0.2, -0.2, 1, 50, 100);
+} */
+
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+}
+
+.container{
+    perspective: 500px; /*Krijon thellesi ne hapesire*/
+}
+
+.box{
+    width: 200px;
+    height: 100px;
+    background-color: aqua;
+    transition: transform 1s; 
+    transform-style: preserve-3d; 
+}
+
+.box:hover{
+    transform: rotateX(45deg) rotateY(45deg) translateZ(-100px);
+}

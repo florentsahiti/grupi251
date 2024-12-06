@@ -1,0 +1,16 @@
+.box{
+    width: 200px;
+    height: 200px;
+    background-color: blue;
+    border: 5px solid red;
+    color: white;
+}
+
+.box-first{
+    width: 200px;
+    height: 200px;
+    background-color: blue;
+    border: 5px solid red;
+    color: white;
+    margin-left: 250px;
+}

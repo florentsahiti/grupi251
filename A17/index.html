@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact Form</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="left">
+        <h1 class="contact-title">Get a quote</h1>
+        <p class="contact-desc">
+          Fill up the form and our Team will get back to you within 24 hours
+        </p>
+
+        <ul class="contact-list">
+          <li>
+            <img src="images/phone.png" alt="" class="contact-icon" />+0123 4567
+            8910
+          </li>
+          <li>
+            <img
+              src="images/mail.png"
+              alt=""
+              class="contact-icon"
+            />hello@j-coders.com
+          </li>
+          <li>
+            <img src="images/location.png" alt="" class="contact-icon" />102
+            Street 2714
+          </li>
+        </ul>
+
+        <ul class="social-list">
+          <li>
+            <a href=""
+              ><img src="images/facebook.png" alt="" class="contact-icon"
+            /></a>
+          </li>
+          <li>
+            <a href=""
+              ><img src="images/twitter.png" alt="" class="contact-icon"
+            /></a>
+          </li>
+          <li>
+            <a href=""
+              ><img src="images/instagram.png" alt="" class="contact-icon"
+            /></a>
+          </li>
+        </ul>
+      </div>
+      <div class="right">
+        <form action="">
+          <div class="form-control">
+            <label for="name">Your Name</label>
+            <img src="images/name.png" class="control-icon" alt="" />
+            <input type="text" id="name" name="name" />
+          </div>
+
+          <div class="form-control">
+            <label for="email">Mail</label>
+            <img src="images/mail-outline.png" class="control-icon" alt="" />
+            <input type="email" id="email" name="email" />
+          </div>
+
+          <div class="form-control">
+            <label for="message">Message</label>
+            <textarea
+              name="message"
+              id="message"
+              rows="10"
+              placeholder="Message"
+            ></textarea>
+          </div>
+
+          <button>Send Message</button>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>

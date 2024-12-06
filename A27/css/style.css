@@ -1,0 +1,31 @@
+/* Unvisited link */
+a:link{
+    color: #FF0000;
+}
+
+/* visited link */
+a:visited{
+    color: #0000FF;
+}
+/* mouse over link */
+a:hover{
+    color: yellow;
+}
+
+/* selected link */
+a:active{
+    color: #0000FF;
+}
+
+
+
+
+.desc::before{
+    content: "Dje ka qene 26 Nentori";
+    color: red;
+}
+
+.desc::after{
+    content: "Neser eshte 28 Nentori";
+    color: red;
+}

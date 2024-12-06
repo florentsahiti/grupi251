@@ -1,0 +1,29 @@
+/* table, th, td{
+    border: 1px solid black;
+    border-collapse: collapse;
+} */
+
+/* *{
+    margin: 0;
+    padding: 0;
+} */
+
+/* div p{
+    color: blue;
+} */
+
+/* p ~ ul{
+    background-color: red;
+} */
+
+/* p:nth-child(3){
+    background: red;
+} */
+
+p:nth-of-type(odd){
+    background:red;
+}
+
+p:nth-of-type(even){
+    background: blue;
+}

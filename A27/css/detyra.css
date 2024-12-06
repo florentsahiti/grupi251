@@ -1,0 +1,146 @@
+body{
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.heart{
+    height: 150px;
+    width: 150px;
+    margin: 0 10px;
+    background: red;
+    position: relative;
+    animation: pulse 1s ease infinite;
+}
+
+@keyframes pulse{
+    0%{
+        transform: rotate(45deg) scale(0.75);
+    }
+    50%{
+        transform:  rotate(45deg) scale(1);
+    }
+    100%{
+        transform:  rotate(45deg) scale(0.75);
+    }
+}
+
+
+.heart:before,
+.heart:after{
+    content: "";
+    display: block;
+    position: absolute;
+    background-color: red;
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+}
+
+.heart:before{
+    top: 0;
+    left: -75px;
+}
+.heart:after{
+    top:-75px;
+    left: 0;
+}
+
+
+
+/* KeyFrames ERA GASHI */
+/* body{
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.heart{
+    height: 150px;
+    width: 150px;
+    margin: 0 10px;
+    background: red;
+    position: relative;
+    animation: pulse 1s ease infinite;
+}
+@keyframes pulse{
+    0%{
+        transform: rotate(45deg) scale(0.75);
+    }
+    50%{
+        transform:  rotate(45deg) scale(1);
+    }
+    100%{
+        transform:  rotate(45deg) scale(0.75);
+    }
+}
+
+.heart:before,
+.heart:after{
+    content: "";
+    display: block;
+    position: absolute;
+    background-color: red;
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+}
+.heart:before{
+    top: 0;
+    left: -75px;
+}
+.heart:after{
+    top:-75px;
+    left: 0;
+} */
+
+/* kODI BERTIT */
+/* body{
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.heart{
+    width: 150px;
+    height: 150px;
+    margin: 0 10px;
+    background-color: red;
+    position: relative;
+    animation: pulse 1s ease infinite;
+}
+@keyframes pulse{
+    0%{
+        transform: rotate(45deg) scale(0.75);
+    }
+    50%{
+        transform: rotate(45deg) scale(1);
+    }
+    100%{
+        transform: rotate(45deg) scale(0.75);
+    }
+}
+.heart::after,
+.heart::before{
+    content: "";
+    display: block;
+    position: absolute;
+    background-color: red;
+    border-radius: 50%;
+    width: 75px;
+    height: 75px;
+}
+
+
+.heart::before{
+    top: 0;
+    left: -75px;
+}
+.heart::after{
+    top: -75px;
+    left: 0;
+} */

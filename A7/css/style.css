@@ -1,0 +1,24 @@
+div{
+    background-color: tomato;
+    color: white;
+    width: 300px;
+}
+
+span{
+    font-size: 50px;
+    color: red;
+    background-color: black;
+}
+
+
+.kosova{
+    color: red;
+}
+
+.shqiperia{
+    color: green;
+}
+
+.italia{
+    color: blue;
+}
